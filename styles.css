@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@800;900&family=Oleo+Script:wght@400;700&family=Piedra&display=swap');
+
+/* 
+font-family: 'Piedra', cursive; 
+font-family: 'Oleo Script', cursive;
+font-family: 'Alegreya Sans', sans-serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.clickable {
+    font-family: 'Alegreya Sans', sans-serif;
+    background: #d7aa2e;
+    border-radius: 6px;
+    border: 3px solid #d7aa2e;
+    transition: all 0.3s ease;
+}
+
+.clickable:hover {
+    background: none;
+}
+
+.navbar {
+    position: fixed;
+    background: rgba(51, 92, 103, 0.5);
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 900;
+    width: 100%;
+    z-index: 999;
+    padding: 25px 15px 25px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s ease;
+}
+
+.navbar.sticky {
+    background: #335C67;
+    padding: 10px 15px 10px 45px;
+}
+
+.navbar img {
+    height: 75px;
+}
+
+.navbar.sticky img {
+    display: none;
+}
+
+.navbar .title {
+    font-family: 'Piedra', cursive; 
+    font-size: 35px;
+    display: none;
+}
+
+.navbar.sticky .title {
+    display: block;
+}
+
+.navbar ul {
+    padding-right: 20px;
+}
+
+.navbar ul li {
+    color: #FFF3B0;
+    font-size: 20px;
+    text-align: right;
+    display: inline-block;
+    padding-left: 20px;
+}
+
+ footer {
+    padding: 20px 0;
+    background: rgb(84, 11, 14, 0.75);
+ }
+
+ footer p {
+     color: #FFF3B0;
+    font-family: 'Oleo Script', cursive;
+    font-size: 23px;
+    text-align: center;
+ }
+
+ footer a {
+     color: #E09F3E;
+     transition: all 0.3s ease;
+ }
+
+ footer a:hover {
+     color: white;
+ }

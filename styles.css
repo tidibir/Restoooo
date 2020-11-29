@@ -75,14 +75,14 @@ font-family: 'Alegreya Sans', sans-serif;
 }
 
  footer {
-    padding: 20px 0;
-    background: rgb(84, 11, 14, 0.75);
+    padding: 15px 0;
+    background: rgb(249, 1, 2, 0.50);
  }
 
  footer p {
-     color: #FFF3B0;
+     color: #f3c43e;
     font-family: 'Oleo Script', cursive;
-    font-size: 23px;
+    font-size: 18px;
     text-align: center;
  }
 
